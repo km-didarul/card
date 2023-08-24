@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+.card-01{
+    width: 350px;
+    height: 450px;
+    background-color: #59627555;
+    padding: 20px 10px;
+    text-align: center;
+    border: 2px solid red;
+    transition: 0.4s all ease-in-out;
+    box-shadow: #218c74 2px 2px 5px;
+    margin-left: 40%;
+}
+.card-01:hover{
+    box-shadow: #218c74 5px 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    border: red;
+    border-style: double;
+    padding-top: 10px;
+    transition: 0.8s ease-in-out;
+
+}
+img:hover{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    border: red;
+    border-style: double;
+    padding-top: 10px;
+    cursor: pointer;
+}
+h1{
+    color: #1e272e;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.numbar{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #218c74;
+    transition: 0.4s;
+}
+.numbar:hover{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #a2210dd3;
+    font-size: 18px;
+    cursor: pointer;
+}
+.para{
+    padding-bottom: 20px;
+    color: #218c74;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.baton{
+    background: #c0392b85;
+    padding: 12px;
+    color: black;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.baton:hover{
+    background: #c0392b;
+    padding: 12px;
+    color: rgb(1, 36, 11);
+    border-radius: 5px;
+    font-size: 17px;
+}
